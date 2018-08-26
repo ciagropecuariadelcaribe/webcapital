@@ -1,0 +1,56 @@
+#Header {
+  height: 600px;
+  background: url("/assets/images/bg.png");
+  background-size: cover;
+
+  nav{
+    box-shadow: none;
+  }
+
+  li a {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 300;
+  }
+
+  a {
+    color: white;
+
+    &.contact {
+      text-shadow: 2px 2px 6px #FF9800;
+      color: #FFEB3B;
+    }
+
+    &.brand-logo {
+      min-width: 223px;
+    }
+
+    img {
+      width: 40px;
+      display: inline-block;
+      margin-right: 10px;
+      margin-top: 10px;
+    }
+
+    span {
+      display: inline-block;
+      vertical-align: top;
+      font-family: 'Kurale', serif;
+      font-size: 20px;
+    }
+  }
+
+
+  .content {
+    h1 {
+      font-size: 50px !important;
+      width: 50%;
+      margin-top: 15%;
+    }
+
+    p {
+      font-size: 20px;
+      text-transform: uppercase;
+    }
+  }
+}

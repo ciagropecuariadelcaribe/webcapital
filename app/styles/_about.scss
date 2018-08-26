@@ -1,0 +1,40 @@
+#AboutUs {
+  padding: 50px 0;
+
+  .mision h5 {
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #E5A840;
+  }
+
+  .mision-vision {
+    width: 50%;
+
+    .mision {
+      margin-bottom: 40px;
+    }
+
+    p {
+      font-weight: 200;
+      font-size: 16px;
+      line-height: 30px;
+    }
+  }
+
+
+  .logo, .mision-vision {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .logo {
+    float: right;
+    width: 30%;
+    margin-left: 20px;
+    margin-top: 30px;
+
+    img {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,227 @@
+@media all and (max-width: 1293px) {
+  #Services .card .card-content .card-title, #Services .card .card-reveal .card-title {
+    font-size: 16px;
+  }
+}
+
+@media all and (max-width: 1240px) {
+  #Header {
+    .content {
+      h1 {
+        font-size: 40px !important;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 1140px) {
+  #Header {
+    height: 550px;
+  }
+
+  #Services {
+    .card .card-content {
+      padding: 15px;
+    }
+
+    .card .card-content .card-title, #Services .card .card-reveal .card-title {
+      font-size: 14px;
+    }
+  }
+
+  .video .content .text {
+    margin-top: 30px;
+  }
+
+  .video .content .line {
+    background-color: white;
+    margin-bottom: 30px;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  #Header {
+    height: 500px;
+  }
+}
+
+@media all and (max-width: 915px) {
+  .video .content {
+    padding: 40px 0;
+
+    h3 {
+      font-size: 24px;
+    }
+
+    .text {
+      font-size: 18px;
+      line-height: 25px;
+    }
+  }
+
+  #Contact {
+    .container .card {
+      width: 100%;
+      position: inherit;
+      padding: 20px;
+      color: white;
+    }
+  }
+}
+
+@media all and (max-width: 900px) {
+  #Header {
+    height: 450px;
+    .content {
+      h1 {
+        font-size: 30px !important;
+        margin-top: 13%;
+      }
+
+      p { font-size: 16px; }
+    }
+  }
+}
+
+@media all and (max-width: 760px) {
+  #Services {
+    .row .col.s6 {
+      width: 100%;
+      margin: 0;
+    }
+  }
+
+  .video .content button {margin-top: 30px;}
+}
+
+@media all and (max-width: 740px) {
+  #Header {height: 400px;}
+}
+
+@media all and (max-width: 700px) {
+  .video .content {
+    padding: 20px 0;
+
+    h3 {
+      font-size: 20px;
+    }
+
+    .text {
+      font-size: 16px;
+      line-height: 25px;
+    }
+
+    button { margin-top: 20px;}
+  }
+}
+
+@media all and (max-width: 660px) {
+  #Header {
+    height: 320px;
+    background-size: 120%;
+
+    .content {
+      h1 {
+        font-size: 25px !important;
+      }
+
+      p {
+        font-size: 14px;
+        margin: 10px 0;
+      }
+    }
+  }
+
+  #AboutUs .logo {
+    display: none;
+  }
+
+  #AboutUs .mision-vision {
+    width: 100%;
+  }
+
+  .video .content {
+    .line {
+      margin: 10px 0;
+    }
+
+    .text {
+      margin: 10px 0;
+    }
+  }
+}
+
+@media all and (max-width: 555px) {
+  .video .content {
+    h3 {
+      margin-top: 20px;
+    }
+    .text {
+      line-height: 20px;
+      font-size: 14px;
+      .br {
+        display: none;
+      }
+    }
+
+    .line{display: none;}
+
+    button {
+      margin-top: 10px;
+    }
+
+    button span, button i{
+      font-size: 12px;
+    }
+  }
+}
+
+
+@media all and (max-width: 470px) {
+  #Header {
+    background-size: auto 320px;
+  }
+
+  .video {
+    height: 290px;
+    .content {background-image: linear-gradient(-90deg, #020100f5 0%, #fdb83ef2 100%);}
+  }
+}
+
+@media all and (max-width: 410px) {
+  #Header {
+    background-size: auto 320px;
+    background-position: -20px 0px;
+
+    .content {
+      h1 {
+        font-size: 20px !important;
+      }
+
+      p {
+        font-size: 12px;
+        width: 60%;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 360px) {
+  #Header {
+    background-size: auto 320px;
+    background-position: -50px 0px;
+  }
+}
+
+
+@media all and (max-width: 320px) {
+  #Header {
+    height: 300px;
+    background-size: auto 300px;
+    background-position: center;
+  }
+}

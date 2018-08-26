@@ -1,0 +1,33 @@
+#Services {
+  padding: 40px 0;
+  background-color: #f1f1f1;
+
+  h5 {
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #E5A840;
+  }
+
+  .card {
+    span i { float: right;}
+
+    .card-content .card-title , .card-reveal .card-title{
+      font-size: 20px;
+    }
+
+    .card-reveal {
+      p {
+        font-weight: 100;
+
+        ul {
+          list-style-type: circle;
+          padding-left: 20px;
+        }
+
+        ul:not(.browser-default)>li {
+            list-style-type: circle;
+        }
+      }
+    }
+  }
+}

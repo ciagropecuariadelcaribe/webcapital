@@ -1,0 +1,31 @@
+*{
+  transition: all 0.53s;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  min-width: 320px;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder !important;
+  font-size: 35px !important;
+  text-transform: uppercase;
+}
+
+.line {
+  background-color: #E5A840;
+  height: 2px;
+  width: 100px;
+  margin: 20px 0 30px 0;
+}
+
+#Footer {
+  padding: 20px 0;
+
+  span {
+    color: white;
+    font-size: 10px;
+  }
+}

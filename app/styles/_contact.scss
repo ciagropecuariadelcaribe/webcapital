@@ -1,0 +1,62 @@
+
+
+#Contact {
+  padding: 40px 0;
+  position: relative;
+
+  .container {
+    iframe {
+      width: 100%;
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 1%;
+    }
+
+    .card {
+      width: 400px;
+      background-color: #37474fb8;
+      border-radius: 4px;
+      position: absolute;
+      padding: 20px;
+      top: 40px;
+      right: 40px;
+      color: white;
+
+      h4 {
+        font-size: 20px;
+        font-weight: 400;
+        margin: 0 0 10px 0;
+      }
+
+      p{
+        margin: 0px;
+      }
+
+      img {
+        width: 10px;
+        margin-right: 5px;
+        display: inline-block;
+      }
+
+
+      a {
+        color: #ea9100;
+
+        &:hover {
+          color: #ea9100;
+          text-decoration: none;
+        }
+
+
+        &.facebook img{
+          width: 7px;
+        }
+
+        &.twitter img{
+          width: 12px;
+        }
+      }
+
+    }
+  }
+}
